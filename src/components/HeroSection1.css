@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    
+}
+.header {
+    background: radial-gradient(#fff, #de7575);
+    min-height:calc(100vh - 90px);
+}
+.header .row {
+    margin-top: 80px;
+}
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;  
+}
+
+.navbar{
+    margin-bottom: -85px;
+    /* background:  #ebb6b6; */
+}
+
+.logo{
+    padding: 15px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 18PX;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+ 
+.navitem{
+    color: #201a1a;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+.navitem:hover{
+    color: RED;
+    transition: 0.5s all;
+}
+
+h2 {
+    font-size: 30px;
+    cursor: pointer;
+    color: red;
+}
+
+p {
+    color: #555;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 600px;
+}
+
+.col-2 img {
+    max-width: 100%;
+}
+
+.col-2 h1 {
+    font-size: 35px;
+    line-height: 50px;
+    margin: 25px 0;
+}
+
+.col-2 .explore {
+    display: inline-block;
+    background: #ff523b;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+    list-style: none;
+    text-decoration: none;
+}
+
+.col-2 span {
+    font-style: italic;
+}
+
+.explore:hover {
+    background: red;
+}
+
+
+input[type="text"] {
+    padding: 10px 20px;
+    width: 90%;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.fa-solid {
+    margin-left: -44px;
+    font-size: 24px;
+}
+
+.fa-solid:hover {
+    color: green;
+}
+
+.searchbox {
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    padding-left: 15px;
+    border-bottom-width: 4px;
+    transition: all 0.3s ease;
+}
+
+.searchbox:focus {
+    border-color: green;
+}
+
+.searches {
+    display: inline-block;
+}
+
+.searches h3 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.searches1 {
+    list-style: none;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 5px 8px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: black;
+    margin: 0 6px;
+    letter-spacing: 2px;
+   
+}
+
+.searches1:hover{
+    background: #ff523b ;
+    color: white;
+}

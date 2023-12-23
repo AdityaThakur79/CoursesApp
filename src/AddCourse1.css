@@ -1,0 +1,15 @@
+.container {
+    max-width: 1080px;
+    margin-top: 80px;
+}
+
+.flexContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-center input{
+    padding:  10px 100px;
+}
