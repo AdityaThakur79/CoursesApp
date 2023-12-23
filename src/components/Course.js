@@ -48,17 +48,6 @@ function Course({ course, update }) {
   };
   return (
     <>
-      {/* <Card className="text-center"> 
-        <CardBody> 
-        <CardTitle className="font-weight-bold">{course.id}.{course.title}</CardTitle>
-        <CardText>{course.description}</CardText>
-        <Container className="text-center">
-            <Button color="danger mx-2 " onClick={() => {deleteCourse(course.id)}}>Delete</Button>
-            <Button color="warning" onClick={()=> {updateCourse(course)}}>Update</Button>
-        </Container>
-        </CardBody>
-      </Card> */}
-
       <div class="card">
         <div class="image">
           <img src="Images/course.jpg" />
@@ -68,7 +57,7 @@ function Course({ course, update }) {
             {course.id}. {course.title}
           </h1>
           <p>{course.description}</p>
-          
+
           <div className="btn">
             <button
               onClick={() => {
@@ -77,7 +66,7 @@ function Course({ course, update }) {
             >
               Delete
             </button>
-            <button 
+            <button
               onClick={() => {
                 updateCourse(course);
               }}
